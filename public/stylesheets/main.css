@@ -1,0 +1,106 @@
+.jumbotron {
+  background: #ff3589eb;
+  color: white;
+  border-radius: 0;
+}
+.jumbotron .btn-primary {
+  background: #ff0195;
+  border-color: #ff0195;
+}
+.jumbotron .btn-primary:hover {
+  background: #ff0195;
+}
+.jumbotron p {
+  color: #eecce4;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+.jumbotron .lang-logo {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
+
+body
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#ageSlider {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+body .noUi-connect {
+  background: deeppink;
+}
+
+body .noUi-handle {
+  border: 1px solid #d9d9d9;
+  border-radius: 11px;
+  background: #fff;
+}
+
+body .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: deeppink;
+  background-color: deeppink;
+}
+.btn-primary {
+  color: #fff;
+  background-color: deeppink;
+  border-color: deeppink;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn.primary.focus {
+  background-color: #c41a76;
+  border-color: #c41a76;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 h4 {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#matches {
+  font-size: 4.5rem;
+  color: #c41a76;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) { /*when the browser window is 600px wide or less*/
+  body {
+    /* do style here */
+  }
+}

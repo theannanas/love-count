@@ -1,0 +1,34 @@
+
+<%- include ("../partials/ownGender.ejs") %>
+
+<%- include ("../partials/desiredGender.ejs") %>
+
+<!-- https://refreshless.com/nouislider/ SLIDER -->
+<div>
+  <h4>Age range</h4>
+  <div id="ageSlider"></div>
+</div>
+
+<!-- Municipality , add multiple to enable selecting mulitple options -->
+<h4>Select municipalities</h4>
+<select
+  class="selectpicker"
+  id="municipalitySelect"
+  data-live-search="true"
+  data-actions-box="true"
+  data-dropup-auto="false"
+  title="Select the municipalities, where you're looking for matches"
+>
+</select>
+</hr>
+
+<div class="">
+  <button type="button" class="btn btn-primary" onclick="getMatches()">
+    Press me
+  </button>
+</div>
+
+<div>
+  <h1 id="matches"></h1>
+  <p id="disclaimer"></p>
+</div>
